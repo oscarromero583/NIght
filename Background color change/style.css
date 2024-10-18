@@ -1,0 +1,23 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+.div_container{
+    padding: 5px;
+    margin: 2px;
+}
+
+.div1{
+    background-color: black;
+    color: aliceblue;
+}
+
+h2{
+    color: aliceblue;
+}
+
+.div2{
+    width: 100px;
+    height: 150px;
+}

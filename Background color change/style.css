@@ -1,23 +1,24 @@
-*{
-    padding: 0%;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     margin: 0;
+    background-color: #f0f0f0;
 }
 
-.div_container{
-    padding: 5px;
-    margin: 2px;
+.gradient-box {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right, red, blue);
+    margin-bottom: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
 }
 
-.div1{
-    background-color: black;
-    color: aliceblue;
-}
-
-h2{
-    color: aliceblue;
-}
-
-.div2{
-    width: 100px;
-    height: 150px;
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
